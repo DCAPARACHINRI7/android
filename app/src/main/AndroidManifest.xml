@@ -13,8 +13,10 @@
         <activity android:name=".verificacion_del_correo" />
         <activity android:name=".registro" />
         <activity android:name=".cambiar_contrasena" />
-        <activity android:name=".login" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".login"
+                  android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".MainActivity"
+                  android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
