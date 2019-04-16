@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>login</title>
+</head>
+
+<body>
+	<form>
+		<label>Usuario</label>
+		<input type="text" id="user">
+		<br />
+
+
+		<label>Contraseña</label>
+		<input type="password" id="pass">
+		<br />
+
+
+
+	</form>
+	<script type="text/javascript">
+		function Ingresa() {
+			var usuario = document.getElementById("user").value;
+			var password = document.getElementById("pass").value;
+
+			if (usuario == 'admin' && password == "1234") {
+				location.href = "bienvenido.html";
+			} else if(usuario =='admin') {
+				alert("Ingresa la contraseña correcta");
+			} else if(password=='1234'){
+				alert("Ingresa su usuario correcto");
+			}else{
+				alert("El usuario y contraseña es erroneo");
+			}
+		}
+	</script>
+
+	<button onclick="Ingresa()">Ingresa</button>
+</body>
+
+
+</html>
