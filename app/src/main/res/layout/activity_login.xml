@@ -25,6 +25,7 @@
         app:layout_constraintTop_toBottomOf="@+id/bingresar" />
 
     <EditText
+        android:maxLength="20"
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -94,6 +95,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
+        android:maxLength="20"
         android:drawableLeft="@drawable/lock"
         android:drawableRight="@drawable/view"
         android:id="@+id/editText4"
