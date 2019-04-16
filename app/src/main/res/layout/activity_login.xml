@@ -8,6 +8,7 @@
     android:background="#FFFFFF">
 
     <EditText
+        android:textColor="#F08845"
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="39dp"
@@ -29,6 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
+        android:textColor="#F08845"
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
