@@ -11,7 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".registro"></activity>
         <activity android:name=".restablecer_contrasena" />
-        <activity android:name=".verificacion_del_correo" />
+        <activity android:name=".verificacion_del_correo">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <activity android:name=".cambiar_contrasena" />
         <activity
             android:name=".login"
@@ -21,11 +27,7 @@
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
