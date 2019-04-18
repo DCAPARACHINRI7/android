@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".registro"></activity>
-        <activity android:name=".restablecer_contrasena" />
-        <activity android:name=".verificacion_del_correo">
+        <activity android:name=".restablecer_contrasena"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".verificacion_del_correo"
+            android:label="Verificacion del correo">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
