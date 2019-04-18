@@ -13,7 +13,8 @@
         <activity android:name=".restablecer_contrasena"
             android:screenOrientation="portrait"/>
         <activity android:name=".verificacion_del_correo"
-            android:label="Verificacion del correo">
+            android:label="Verificacion del correo"
+            android:screenOrientation="portrait">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 

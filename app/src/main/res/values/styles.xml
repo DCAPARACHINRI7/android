@@ -1,15 +1,9 @@
 <resources>
 
     <!-- Base application theme. -->
-
-
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#D50000</item>
         <item name="colorPrimaryDark">#D50000</item>
-    </style>
-
-    <style name="ActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 
 </resources>
