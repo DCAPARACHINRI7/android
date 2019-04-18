@@ -27,6 +27,7 @@
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
     <EditText
+        android:maxLength="15"
         android:id="@+id/intro_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,123 +36,127 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/user"
         android:ems="10"
         android:hint="usuario (ejemplo: david)"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/intro_usuario2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:maxLength="15"
         android:id="@+id/intro_usuario2"
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/lock"
         android:ems="10"
         android:hint="contraseña (ejemplo: )"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/intro_usuario3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_usuario" />
 
     <EditText
+        android:maxLength="20"
         android:id="@+id/intro_usuario3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/ic_name"
         android:ems="10"
         android:hint="nombre (ejemplo: Manuel Arturo)"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/intro_usuario4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_usuario2" />
 
     <EditText
+        android:maxLength="20"
         android:id="@+id/intro_usuario4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/ic_name"
         android:ems="10"
         android:hint="Apellido (ejemplo: Huamani Enciso)"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_usuario3" />
 
     <EditText
+        android:maxLength="8"
         android:id="@+id/editText8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/calendar"
         android:ems="10"
         android:hint="Fecha de nacimiento (Ejemplo: "
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_usuario4" />
 
     <EditText
+        android:maxLength="20"
         android:id="@+id/editText6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/email"
         android:ems="10"
         android:hint="Ingrese un correo electronico"
-        app:layout_constraintBottom_toTopOf="@+id/editText7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText8" />
 
     <EditText
+        android:maxLength="9"
         android:id="@+id/editText7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="16dp"
         android:drawableLeft="@drawable/phone"
         android:ems="10"
         android:hint="Ingrese un número de celular"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/checkBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -159,11 +164,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="Acepta los terminos y condiciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="449dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
 
 </android.support.constraint.ConstraintLayout>
