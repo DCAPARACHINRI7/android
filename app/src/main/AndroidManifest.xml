@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registro"></activity>
+        <activity android:name=".registro"
+            android:label="Registro"
+            android:screenOrientation="portrait">></activity>
         <activity android:name=".restablecer_contrasena"
             android:screenOrientation="portrait"/>
         <activity android:name=".verificacion_del_correo"
